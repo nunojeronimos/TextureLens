@@ -10,7 +10,7 @@ model_path = 'models/RRDB_ESRGAN_x4.pth'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Paths to on-model and close-up images
-on_model_image_path = 'inputs/4.jpg'
+on_model_image_path = 'inputs/on-model_garment.jpg'
 closeup_image_path = 'textures/cotton1.jpg'
 
 # Initialize the model
